@@ -9,14 +9,14 @@
 
 #Finding boot.img
 
-A=$HOME/fastboot-tool
+A=$HOME/git/fastboot
 echo "Finding boot.img"
 cd boot_img
 if [[ -s $A/boot_img/boot.img ]] ; then
   echo "Found boot.img"
 else
   echo "Could not find boot.img"
-  echo "Quitting because we could not find boot.img in boot_img folder"
+  echo "Quitting"
   exit
 fi
 fastboot flash boot boot.img
