@@ -7,6 +7,7 @@ NOTE: YOU NEED TO HAVE FASTBOOT PREINSTALLED
       
 in terminal execute "chmod a+x recovery.sh"
 in terminal execute "chmod a+x kernel.sh"
+in terminal execute "chmod a+x start.sh"
 
 To execute - ./start.sh
 
