@@ -8,7 +8,6 @@ NOTE: YOU NEED TO HAVE FASTBOOT PREINSTALLED
 in terminal execute "chmod a+x recovery.sh"
 in terminal execute "chmod a+x kernel.sh"
 
-To install recovery.img execute ./recovery.img
-To install boot.img execute ./kernel.sh
+To execute - ./start.sh
 
 Thank you.
