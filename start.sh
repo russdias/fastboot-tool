@@ -21,6 +21,8 @@ echo "|------------Options------------|"
 echo "|-------------------------------|"
 echo "| 1. boot.img flash             |"
 echo "| 2. recovery.img flash         |"
+echo "| 3. enable adb for device      |"
+echo "| 4. Reboot device to Fastboot  |"
 echo "|-------------------------------|"
 echo "|-------------------------------|"
 echo "|-------------------------------|"
@@ -29,6 +31,8 @@ read num
 case $num in
 1) clear; ./kernel.sh;;
 2) ./recovery.sh;; 
+3) adb devices;;
+4) adb reboot bootloader;;
 *) echo; echo "$num is not a valid option"; enter;
 esac
 
