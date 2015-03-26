@@ -2,8 +2,8 @@
 
 # Fastboot Tool	
 # Author: Russell Dias
-# Version: 0.0.2
-# Date: May 26, 2013
+# Version: 0.1.0
+# Date: March 26, 2015
 # Contact: russell.dias98@gmail.com
 #Fastboot Tool by russelldias
 
