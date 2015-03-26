@@ -19,6 +19,7 @@ else
   echo "Quitting because we could not find recovery.img in recovery_img folder"
   exit
 fi
+adb reboot bootloader
 fastboot flash recovery recovery.img
 sleep .1
 echo "Installing recovery"

@@ -19,6 +19,7 @@ else
   echo "Quitting because we could not find boot.img in boot_img folder"
   exit
 fi
+adb reboot bootloader
 fastboot flash boot boot.img
 sleep .1
 echo "Installing boot.img"
